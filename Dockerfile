@@ -1,6 +1,5 @@
 FROM nginx:1.14.0-alpine
 
-MAINTAINER   "@"
 
 RUN apk --no-cache add \
       python2 \
